@@ -374,7 +374,7 @@ nav .right a span{
 }
 
 
-@media (max-width: 426px)
+@media (max-width: 500px)
 {
     nav .left h3{
         font-size: 40px;
