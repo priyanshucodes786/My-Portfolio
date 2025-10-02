@@ -162,46 +162,7 @@ nav .right a span{
 }
 
 
-@media (max-width: 850px)
-{   /*hero section1*/
-    .hero-section .text .h2{
-        font-size: 35px;
-    }
-}
-@media (max-width: 750px)
-{   /*hero section1*/
-    .hero-section{
-        flex-direction: column-reverse;
-    }
-    .hero-section .headshot img{
-        width: 310px;
-        height: 410px;
-    }
 
-}
-@media (max-width: 600px)
-{
-    /*navbar*/
-    nav{
-        padding: 0 20px;
-    }
-    nav .right a:last-child{
-        background-color: transparent;
-        color: black;
-        padding: 0px;
-    }
-
-    nav .right a span{
-        display: none;
-    }
-    /*hero section1*/
-    .hero-section{
-        padding: 0 20px;
-    }
-    .hero-section .text h2{
-        font-size: 30px;
-    }
-}
 
 
 /*skills  section*/
@@ -216,7 +177,6 @@ nav .right a span{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    flex-wrap: wrap;
     margin-bottom: 80px;
 
 }
@@ -232,7 +192,6 @@ nav .right a span{
 
 .skills-section .code{
     border: 5px solid rgb(227, 238, 18);
-    padding: 10px 20px;
     height: 160px;
     width: 300px;
     margin: 5px;
@@ -242,7 +201,6 @@ nav .right a span{
 }
 .skills-section .team{
     border: 5px solid rgb(227, 238, 18);
-    padding: 10px 20px;
     height: 160px;
     width: 300px;
     margin: 5px;
@@ -253,7 +211,6 @@ nav .right a span{
 
 .skills-section .data{
     border: 5px solid rgb(227, 238, 18);
-    padding: 10px 20px;
     height: 160px;
     width: 300px;
     margin: 5px;
@@ -264,7 +221,6 @@ nav .right a span{
 
 .skills-section .per{
     border: 5px solid rgb(227, 238, 18);
-    padding: 10px 20px;
     height: 160px;
     width: 300px;
     margin: 5px;
@@ -275,7 +231,6 @@ nav .right a span{
 
 .skills-section .AI{
     border: 5px solid rgb(227, 238, 18);
-    padding: 10px 20px;
     height: 160px;
     width: 300px;
     margin: 5px;
@@ -286,7 +241,7 @@ nav .right a span{
 
 .skills-section .item
 {
-    padding: 20px 20px;
+    padding: 10px 35px;
 }
 
 .skills-section .item > h3
@@ -294,6 +249,7 @@ nav .right a span{
     text-align: center;
     margin-bottom: 10px;
 }
+
 
 /*education*/
 
@@ -312,17 +268,17 @@ nav .right a span{
 }
 .edu .containeredu .school{
     border: 5px solid rgb(227, 238, 18);
-    padding: 10px 20px;
+    
     height: 120px;
     width: 440px;
     margin: 5px;
-    font-size: 25px;
+    font-size: 23px;
     background-color: rgb(0, 0, 0);
     color: aquamarine;
 }
 .scaler{
     border: 5px solid rgb(227, 238, 18);
-    padding: 10px 20px;
+    
     height: 120px;
     width: 440px;
     margin: 5px;
@@ -332,13 +288,16 @@ nav .right a span{
 }
 .iit{
     border: 5px solid rgb(227, 238, 18);
-    padding: 10px 20px;
+    
     height: 120px;
     width: 440px;
     margin: 5px;
     font-size: 25px;
     background-color: rgb(0, 0, 0);
     color: aquamarine;
+}
+.edu .con{
+    padding: 14px 39px ;
 }
 .edu>h3{
     text-align: center;
@@ -412,4 +371,92 @@ nav .right a span{
     align-items: center;
     background-color: rgb(0, 0, 0);
     color: aquamarine;
+}
+
+
+@media (max-width: 426px)
+{
+    nav .left h3{
+        font-size: 40px;
+        padding-left: 5px;
+    }
+    nav .right{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: end;
+        padding-left: 100px;
+        margin: 20px;
+        gap: 25px;
+    }
+    .right span{
+        display: none;
+    }
+
+    .hero-section 
+    {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: flex-start;   
+        margin-bottom: 150px;
+        padding-right: 50px;
+    }
+    .hero-section .text h2{
+        font-size: 35px;
+        padding-right: 30px;
+    }
+    .hero-section .text p{
+        padding-right: 30px;
+    }
+    .hero-section .headshot{
+        padding-left: 90px;
+    }
+    
+
+    .skills-section h2{
+        display: flex; 
+        padding-left: 260px ;
+    }
+    .skills-section .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 300px;
+        gap: 40px;
+    }
+
+    .edu h2{
+        display: flex; 
+        padding-left: 260px;
+    }
+    .edu .containeredu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 150px;
+        gap: 40px;
+    }
+
+    .connect h2{
+        text-align: center;
+        padding-left: 260px;
+        text-wrap: nowrap;
+        margin-bottom: 50px;
+    }
+    .connect p{
+        display: none;
+    }
+
+    .connect .containercon{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 150px;
+        gap: 40px;
+        margin-bottom: 50px;
+    }
+   
 }
