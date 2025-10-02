@@ -423,7 +423,10 @@ nav .right a span{
         gap: 40px;
     }
     .AI{
-        height: 200px;
+        height: 250px;
+        h3{
+            font-size: 25px;
+        }
     }
     .per{
         height: 200px;
@@ -435,8 +438,10 @@ nav .right a span{
         height: 200px;
     }
     .data{
-        height: 200px;
+        height: 220px;
     }
+
+
     .edu h2{
         display: flex; 
         padding-left: 260px;
@@ -456,7 +461,11 @@ nav .right a span{
         height: 150px;
     }
     .scaler{
+
         height: 150px;
+        h3{
+            font-size: 29px;
+        }
     }
     .school{
         height: 150px;
