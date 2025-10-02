@@ -268,7 +268,6 @@ nav .right a span{
 }
 .edu .containeredu .school{
     border: 5px solid rgb(227, 238, 18);
-    
     height: 120px;
     width: 440px;
     margin: 5px;
@@ -277,8 +276,7 @@ nav .right a span{
     color: aquamarine;
 }
 .scaler{
-    border: 5px solid rgb(227, 238, 18);
-    
+    border: 5px solid rgb(227, 238, 18); 
     height: 120px;
     width: 440px;
     margin: 5px;
@@ -288,7 +286,6 @@ nav .right a span{
 }
 .iit{
     border: 5px solid rgb(227, 238, 18);
-    
     height: 120px;
     width: 440px;
     margin: 5px;
@@ -425,7 +422,21 @@ nav .right a span{
         padding-left: 300px;
         gap: 40px;
     }
-
+    .AI{
+        height: 200px;
+    }
+    .per{
+        height: 200px;
+    }
+    .team{
+        height: 200px;
+    }
+    .code{
+        height: 200px;
+    }
+    .data{
+        height: 200px;
+    }
     .edu h2{
         display: flex; 
         padding-left: 260px;
@@ -439,6 +450,17 @@ nav .right a span{
         gap: 40px;
     }
 
+
+
+    .iit{
+        height: 150px;
+    }
+    .scaler{
+        height: 150px;
+    }
+    .school{
+        height: 150px;
+    }
     .connect h2{
         text-align: center;
         padding-left: 260px;
