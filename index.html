@@ -1,186 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="portfolio.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Priyanshu Kashyap | Portfolio</title>
+
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-    <title>Priyanshu Kashyap-Portfolio</title>
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+    <link rel="stylesheet" href="portfolio.css" />
 </head>
 <body>
-    <!--navbar-->
-    <nav>
-        <div class="left">
-            <a href="#hero">
-                <h3>Priyanshu Kashyap</h3>
-            </a>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+    <div class="nav-left">Priyanshu Kashyap</div>
+    <div class="nav-right">
+        <a href="https://github.com/priyanshucodes786" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/priyanshu-kashyap-030952375" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#contact"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+    <div class="hero-text">
+        <h1 class="intro-name">Hi, I am Priyanshu Kashyap</h1>
+
+        <h2 class="typing-line">
+            <span class="typing-text">
+                Software Engineer · Data Scientist · Web Developer
+            </span>
+        </h2>
+
+        <p>
+            I build scalable web applications, engineer efficient software,
+            and apply data science & AI to solve real-world problems.
+        </p>
+
+        <div class="hero-actions">
+            <a href="#skills" class="btn-primary">View Skills</a>
+            <a href="#contact" class="btn-outline">Contact Me</a>
         </div>
-        <div class="right">
-            <a href="https://github.com/priyanshucodes786">
-                <i class="fa-brands fa-github"></i>
-                <span>GitHub</span>
-            </a>
-            <a href="https://www.linkedin.com/in/priyanshu-kashyap-030952375">
-                <i class="fa-brands fa-linkedin"></i>
-                <span>LinkedIn</span>
-            </a>
-            <a href="mailto:priyanshukashyapofficial18@gmail.com">
-                <i class="fa-solid fa-envelope"></i>
-                <span>Mail</span>
-            </a>
+    </div>
+
+    <div class="hero-image">
+        <img src="headshot.jpg" alt="Priyanshu Kashyap" loading="lazy">
+    </div>
+</section>
+
+
+
+<!-- SKILLS -->
+<section id="skills" class="section">
+    <h2>Core Skills</h2>
+
+    <div class="skills-grid">
+        <div class="skill-card">
+            <h3>Web Development</h3>
+            <ul>
+                <li>HTML5, CSS3, JavaScript</li>
+                <li>Responsive Design</li>
+                <li>Performance Optimization</li>
+            </ul>
         </div>
-        
-    </nav>
 
-    <main>
-        <!--sec1 = hero -->
-        <section class="hero-section" id="hero">
-            <div class="text">
-                <h2>Hi, I'm Priyanshu Kashyap - Data Scientist!</h2>
-                <p>Passionate about leveraging AI and data science to solve real-world problems. 
-                    Currently pursuing comprehensive education in data science and artificial intelligence 
-                    while building practical skills in automation and machine learning technologies.
-                </p>
-
-                <div class="links">
-                    <a href="#skills">
-                        <i class="fa-solid fa-code"></i>
-                        <span>Skills</span>
-                    </a>
-                    <a href="#Education">
-                        <i class="fa-solid fa-pen"></i>
-                        <span>Education</span>
-                    </a>
-                    <a href="#Projects">
-                        <i class="fa-solid fa-file-code"></i>
-                        <span>Projects</span>
-                    </a>
-                    <a href="#contact">
-                        <i class="fa-solid fa-envelope"></i>
-                        <span>Contact</span>
-                    </a>
-                </div>
-            </div>
-            <div class="headshot">
-                <img src="headshot.jpg" alt="my image">
-            </div>
-        </section>
-
-
-        <!--sec2 = skills -->
-        <section id="skills" class="skills-section">
-            <h2>Skills</h2>
-            <div class="container">
-                <div class="item code">
-                    <h3>Coding</h3>
-                    <li>C++</li>
-                    <li>Java</li>
-                    <li>Web Development</li>
-                </div>
-                <div class="item team">
-                    <h3>Teamwork</h3>
-                    <li>Leadership</li>
-                    <li>Team Building</li>
-                    <li>Strategy</li>
-                </div>
-                <div class="item data">
-                    <h3>Data Science</h3>
-                    <li>Machine Learning</li>
-                    <li>Statistical Analysis</li>
-                    <li>Data Visualzation</li>
-                </div>
-                <div class="item per">
-                    <h3>Personal</h3>
-                    <li>Problem Solving</li>
-                    <li>Communication</li>
-                    <li>Athletics</li>
-                </div>
-                <div class="item AI">
-                    <h3>AI & Automation</h3>
-                    <li>Generative AI</li>
-                    <li>Process Automation</li>
-                    <li>AI Generalist</li>
-                </div>
-            </div>
-
-        </section>
-
-        <!--sec3 = Education -->
-        <section id="Education" class="edu">
-            <h2>Education</h2>
-            <div class="containeredu">
-                <div class="edu school con">
-                    <h3>Carmel Junior College</h3>
-                    <li>Class 10 (ICSE): 92%</li>
-                    <li>Class 12 (ISC - Eco-Science): 80%</li>
-                </div>
-                <div class="edu scaler con">
-                    <h3>Scaler School of Technology</h3>
-                    <li>CS & AI</li>
-                </div>
-                <div class="edu iit con">
-                    <h3>IIT Madras</h3>
-                    <li>BS Data Science & Applications</li>
-                </div>
-            </div>
-        </section>
-
-        <section id="Projects" class="projects">
-            <h2>Projects in Web Development</h2>
-            <div class = "containerimg">
-                <div class="img one">
-                    <img src="img5.png" alt="project5"/>
-                </div>
-                <div class="img two">
-                    <img src="img2.png" alt="project2"/>
-                </div>
-                <div class="img three">
-                    <img src="img3.png" alt="project3"/>
-                </div>
-                <div class="img four">
-                    <img src="img4.png" alt="project4"/>
-                </div>
-                
-            </div>
-
-        </section>
-
-                <!--sec4 = contact -->
-        <section id="contact" class="connect">
-            <h2>Get in Touch</h2>
-            <p>Interested in collaboration, opportunities or just want to connect? Feel free to reach out!</p>
-        <div class="containercon">
-            <div class="con git">
-                <a href="https://github.com/priyanshucodes786">
-                    <i class="fa-brands fa-github"></i>
-                    <span>GitHub</span>
-                </a>
-            </div>
-            <div class="con LinkedIn">
-                <a href="https://www.linkedin.com/in/priyanshu-kashyap-030952375">
-                    <i class="fa-brands fa-linkedin"></i>
-                    <span>LinkedIn</span>
-                </a>   
-            </div>
-            <div class="con GMail">
-                <a href="mailto:priyanshukashyapofficial18@gmail.com">
-                    <i class="fa-solid fa-envelope"></i>
-                    <span>Mail</span>
-                </a>
-            </div>
+        <div class="skill-card">
+            <h3>Software Engineering</h3>
+            <ul>
+                <li>C++, Java</li>
+                <li>Data Structures & Algorithms</li>
+                <li>System Design Fundamentals</li>
+            </ul>
         </div>
-        </section>
 
-    </main>
+        <div class="skill-card">
+            <h3>Data Science & AI</h3>
+            <ul>
+                <li>Machine Learning</li>
+                <li>Statistical Analysis</li>
+                <li>Generative AI</li>
+            </ul>
+        </div>
 
-    <!-- Footer Section -->
-    <footer>
-        <p>&copy; 2025 Priyanshu Kashyap. All rights reserved.</p>
-    </footer>
-    
+        <div class="skill-card">
+            <h3>Professional Skills</h3>
+            <ul>
+                <li>Problem Solving</li>
+                <li>Team Collaboration</li>
+                <li>Technical Communication</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- EDUCATION -->
+<section class="section">
+    <h2>Education</h2>
+
+    <div class="education-grid">
+        <div class="edu-card">
+            <h3>IIT Madras</h3>
+            <p>BS – Data Science & Applications</p>
+        </div>
+
+        <div class="edu-card">
+            <h3>Scaler School of Technology</h3>
+            <p>Computer Science & Artificial Intelligence</p>
+        </div>
+
+        <div class="edu-card">
+            <h3>Carmel Junior College</h3>
+            <p>ICSE (92%) · ISC (80%)</p>
+        </div>
+    </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section class="section">
+    <h2>Certifications</h2>
+
+    <div class="info-grid">
+        <div class="info-card">
+            <h3>AI Tools Masterclass</h3>
+            <p>BE10x</p>
+        </div>
+
+        <div class="info-card">
+            <h3>Certified AI Generalist</h3>
+            <p>Outskill</p>
+        </div>
+
+        <div class="info-card">
+            <h3>Artificial Intelligence & Its Types</h3>
+            <p>Infosys Springboard</p>
+        </div>
+    </div>
+</section>
+
+<!-- LEADERSHIP -->
+<section class="section">
+    <h2>Leadership & Involvement</h2>
+
+    <div class="info-grid">
+        <div class="info-card">
+            <h3>Secretary</h3>
+            <p>Science Club – Carmel Junior College</p>
+        </div>
+
+        <div class="info-card">
+            <h3>Treasurer</h3>
+            <p>Legal Literacy Club – Carmel Junior College</p>
+        </div>
+
+        <div class="info-card">
+            <h3>Public Relations Team Member</h3>
+            <p>Yugaantar Fest – Scaler School of Technology</p>
+        </div>
+    </div>
+</section>
+
+<!-- INTERESTS -->
+<section class="section">
+    <h2>Interests & Activities</h2>
+
+    <div class="info-grid">
+        <div class="info-card">
+            <h3>Sports & Athletics</h3>
+            <p>
+                Represented school at CISCE Zonal and Regional-level football competitions,
+                developing discipline, teamwork, and resilience.
+            </p>
+        </div>
+
+        <div class="info-card">
+            <h3>Writing & Journalism</h3>
+            <p>
+                Strong interest in journalism to improve clarity of thought,
+                structured communication, and expression.
+            </p>
+        </div>
+
+        <div class="info-card">
+            <h3>Content Creation</h3>
+            <p>
+                Sharing reflections and ideas through structured social media content
+                focused on learning and personal growth.
+            </p>
+        </div>
+    </div>
+</section>
+
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+    <h2>Let’s Connect</h2>
+    <p>Open to internships, collaborations, and learning opportunities.</p>
+
+    <div class="contact-links">
+        <a href="mailto:priyanshukashyapofficial18@gmail.com"><i class="fa-solid fa-envelope"></i> Email</a>
+        <a href="https://github.com/priyanshucodes786" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+        <a href="https://www.linkedin.com/in/priyanshu-kashyap-030952375" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+    </div>
+</section>
+
+<footer>
+    <p>© <span id="year"></span> Priyanshu Kashyap</p>
+</footer>
+
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
 </body>
 </html>
